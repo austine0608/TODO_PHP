@@ -27,21 +27,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do Activities</title>
-    <link rel="stylesheet"href="./style/style.css">
+    <Link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
     <center>
-            <div style="background-color:green;width:500px"id="demo">
+            <div id="demo">
             <h2 style="color:white">Daily Task</h2>
                 <form action="home.php" method="POST">
-                    <div style="color:white"id="lo">
+                    <div style="lo">
                               <br><input type="hidden"name="id">
                         Task: <br><textarea input type="text"name="task"placeholder="Type Your To Do"rows="6px"cols="50px" required id="lo"></textarea><br><hr>
                             <input type="submit"name="submit"value="Submit"id="bt"><br><hr>
                     </div>
                 </form>
-            </div><br><hr>
-            <h2><u>Daily Task</u></h2>
+                <h2><u>Daily Task</u></h2>
             <div>
 
                 <table border = 3>
@@ -72,6 +71,7 @@
                         }
                     ?>
                 </table>
+            </div><br><hr>
             </div><br><hr>
     </center>
 </body>

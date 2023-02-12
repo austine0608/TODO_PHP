@@ -32,11 +32,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <Link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
 <center>
-            <div style="background-color:green;width:500px"id="demo">
-                <h2 style="color:white">Registration Form</h2>
+            <div id="demo">
+                <h2 style="color:white">Update Form</h2>
                 <form action="?updateid=<?php echo $id?>"method="POST">
                 <div style="color:white"id="lo">
                         Task: <br><textarea input type="text"name="task"placeholder="Type Your To Do"rows="6px"cols="50px" required id="lo">
